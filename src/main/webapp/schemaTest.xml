@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns="http://xml.ifeng.com/xml"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://xml.ifeng.com/xml schemaDemo.xsd" orderid="id">
+
+    <orderperson>xxx</orderperson>
+    <shipto>
+        <name>name</name>
+        <address>address</address>
+        <city>city</city>
+        <country>couj</country>
+    </shipto>
+    <item>
+        <title>title</title>
+        <note>note</note>
+        <quantity>1</quantity>
+        <price>10</price>
+    </item>
+</shiporder>
