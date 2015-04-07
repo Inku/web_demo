@@ -12,5 +12,7 @@
 </head>
 <body>
 this is errorpage
+type:<%=exception.getClass()%><br/>
+msg:<%=exception.getMessage()%><br/>
 </body>
 </html>
