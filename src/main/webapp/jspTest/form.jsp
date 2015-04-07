@@ -11,9 +11,28 @@
     <title>form</title>
 </head>
 <body>
-<form id="login" method="post" action="jsp-forward.jsp">
-  <input type="text" name="username">
-  <input type="submit" value="login">
+<form action="request1.jsp" method="post" id="form1">
+  用户名:<br/>
+  <input type="text" name="name">
+  <hr/>
+  性别: <br/>
+  男: <input type="radio" name="gender" value="男">
+  女: <input type="radio" name="gender" value="女">
+  <hr/>
+  颜色: <br/>
+  红: <input type="checkbox" name="color" value="red">
+  绿: <input type="checkbox" name="color" value="green">
+  蓝: <input type="checkbox" name="color" value="blue">
+  <hr/>
+  country: <br/>
+  <select name="country">
+    <option value="China">China</option>
+    <option value="America">America</option>
+    <option value="Russia">Russia</option>
+  </select>
+  <input type="submit" value="submit">
+  <input type="reset" value="reset">
+</form>
 </form>
 </body>
 </html>
