@@ -11,7 +11,7 @@ import java.io.IOException;
  * Copyright ©Inku All Rights Reserved.
  * Created by zhengpeng on 15/4/7.
  */
-@WebServlet(name = "firstServlet", urlPatterns = "/firstServlet")
+@WebServlet(name = "firstServlet", urlPatterns = "/servlet/firstServlet")
 public class FirstServlet extends HttpServlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {

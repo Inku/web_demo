@@ -9,7 +9,6 @@ import java.io.IOException;
  * Copyright ©Inku All Rights Reserved.
  * Created by zhengpeng on 15/4/8.
  */
-@WebFilter(filterName = "log", urlPatterns = {"/*"})
 public class LogFilter implements Filter {
     private FilterConfig filterConfig;
 

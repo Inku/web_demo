@@ -12,7 +12,7 @@ import java.io.PrintWriter;
  * Copyright ©Inku All Rights Reserved.
  * Created by zhengpeng on 15/4/3.
  */
-@WebServlet(name = "get-application",urlPatterns = "/get-application")
+@WebServlet(name = "get-application",urlPatterns = "/sevlet/get-application")
 public class GetApplication extends HttpServlet {
     @Override
     public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {

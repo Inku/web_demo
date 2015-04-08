@@ -11,7 +11,7 @@ import java.util.Date;
  * Copyright ©Inku All Rights Reserved.
  * Created by zhengpeng on 15/4/7.
  */
-@WebServlet(loadOnStartup = 1)
+@WebServlet(name = "timer", loadOnStartup = 1)
 public class TimerServlet extends HttpServlet {
 
     public void init(ServletConfig config) throws ServletException {
