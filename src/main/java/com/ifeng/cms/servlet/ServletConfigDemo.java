@@ -19,6 +19,7 @@ public class ServletConfigDemo extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
 
         ServletConfig config = this.getServletConfig();
